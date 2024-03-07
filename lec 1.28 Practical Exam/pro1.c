@@ -10,9 +10,7 @@ scanf("%s",&name);
 for(i=0;name[i]!=NULL;i++){
 length++;
 }
-printf("your choise lenght is : %d\n",len);
-
-for(i=0;name[i]>len;i++){
+for(i=0;name[i]>length;i++){
 if(name[i] == name[length - i - 1]){
 a=1;
 }
